@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(images/grunge-paint-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: poppins, sans-serif;
+}
+.hero {
+    background-color: rgb(173, 211, 223);
+    display: flex;
+    justify-content: right;
+    padding: .5rem;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.527);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+.head-er{
+    padding: 1rem;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 25px;
+    padding: .5rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: outpost;
+    padding-top: 5rem;
+    color: #121212;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+    
+}
+p{
+    font-weight: 700;
+    
+    
+}
+span{
+    display: block;
+    padding: .5rem;
+}
+.new{
+    border-radius: 25px;
+    width: fit-content;
+    
+}
+button{
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color:pink;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: background-color .5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+    background-color: gold;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0,0.1);
+}
+
+.two{
+    background-color: rgb(34, 212, 34);
+}
+
+.foot{
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
